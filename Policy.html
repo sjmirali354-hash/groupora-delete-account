@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Official Privacy Policy for the Groupora application.">
+
+  <meta name="theme-color" content="#5B45F5">
+
+  <title>Privacy Policy | Groupora</title>
+
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --secondary: #8b2cf5;
+      --accent: #19c6e7;
+      --pink: #eb4fa3;
+      --background: #f5f6fc;
+      --card: #ffffff;
+      --text: #202333;
+      --muted: #687086;
+      --border: #e4e6ef;
+      --soft-purple: #f1efff;
+      --warning-bg: #fff7e8;
+      --warning-border: #f0ad37;
+      --success-bg: #effcf6;
+      --success-border: #21a66f;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top left,
+        rgba(25, 198, 231, 0.12),
+        transparent 30%),
+        radial-gradient(circle at top right,
+        rgba(235, 79, 163, 0.12),
+        transparent 30%),
+        var(--background);
+
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 58px 20px 75px;
+      text-align: center;
+      color: white;
+      background:
+        linear-gradient(
+          135deg,
+          var(--primary),
+          var(--secondary)
+        );
+    }
+
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.25;
+    }
+
+    .hero::before {
+      width: 190px;
+      height: 190px;
+      background: var(--accent);
+      top: -90px;
+      left: -70px;
+    }
+
+    .hero::after {
+      width: 220px;
+      height: 220px;
+      background: var(--pink);
+      bottom: -130px;
+      right: -80px;
+    }
+
+    .logo {
+      position: relative;
+      z-index: 1;
+      width: 92px;
+      height: 92px;
+      margin: 0 auto 18px;
+      border-radius: 25px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: 56px;
+      font-weight: 800;
+      color: white;
+
+      background:
+        linear-gradient(
+          145deg,
+          #107bea,
+          #7437f5 55%,
+          #da2ab3
+        );
+
+      border: 4px solid rgba(255,255,255,0.78);
+
+      box-shadow:
+        0 14px 35px rgba(20, 15, 90, 0.35);
+    }
+
+    .hero h1 {
+      position: relative;
+      z-index: 1;
+      margin: 0;
+      font-size: 38px;
+      letter-spacing: -0.5px;
+    }
+
+    .hero p {
+      position: relative;
+      z-index: 1;
+      max-width: 670px;
+      margin: 12px auto 0;
+      font-size: 17px;
+      opacity: 0.95;
+    }
+
+    .updated {
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+      margin-top: 18px;
+      padding: 7px 13px;
+      border-radius: 30px;
+      font-size: 13px;
+      background: rgba(255,255,255,0.16);
+      border: 1px solid rgba(255,255,255,0.28);
+    }
+
+    .container {
+      width: min(920px, calc(100% - 30px));
+      margin: -38px auto 45px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .navigation {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      justify-content: center;
+      padding: 17px;
+      margin-bottom: 18px;
+
+      background: rgba(255,255,255,0.96);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+
+      box-shadow:
+        0 10px 30px rgba(32, 35, 51, 0.08);
+    }
+
+    .navigation a {
+      text-decoration: none;
+      color: var(--primary);
+      background: var(--soft-purple);
+      padding: 8px 12px;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 30px;
+      margin-bottom: 18px;
+
+      box-shadow:
+        0 10px 30px rgba(32, 35, 51, 0.07);
+    }
+
+    h2 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      margin-top: 0;
+      margin-bottom: 16px;
+      color: var(--primary);
+      font-size: 23px;
+    }
+
+    h3 {
+      color: #3e4254;
+      margin-top: 23px;
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+
+    p {
+      margin-top: 8px;
+      margin-bottom: 13px;
+    }
+
+    ul {
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 9px;
+    }
+
+    .intro {
+      font-size: 16px;
+    }
+
+    .notice {
+      padding: 16px 17px;
+      margin: 18px 0;
+      border-radius: 12px;
+      background: var(--warning-bg);
+      border-left: 5px solid var(--warning-border);
+    }
+
+    .success {
+      padding: 16px 17px;
+      margin: 18px 0;
+      border-radius: 12px;
+      background: var(--success-bg);
+      border-left: 5px solid var(--success-border);
+    }
+
+    .data-grid {
+      display: grid;
+      grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+      gap: 13px;
+      margin-top: 17px;
+    }
+
+    .data-box {
+      background: #fafaff;
+      border: 1px solid #e5e1ff;
+      border-radius: 14px;
+      padding: 16px;
+    }
+
+    .data-box strong {
+      color: var(--primary);
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .service {
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      margin-top: 12px;
+      background: #fbfbfe;
+    }
+
+    .service strong {
+      color: var(--secondary);
+    }
+
+    .button {
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      font-weight: 700;
+
+      padding: 13px 19px;
+      margin: 6px 6px 6px 0;
+      border-radius: 11px;
+
+      background:
+        linear-gradient(
+          135deg,
+          var(--primary),
+          var(--secondary)
+        );
+
+      box-shadow:
+        0 7px 18px rgba(79, 70, 229, 0.25);
+    }
+
+    .email {
+      color: var(--primary);
+      font-weight: 700;
+      word-break: break-word;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 12px 20px 35px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .footer strong {
+      color: var(--primary);
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        padding: 45px 18px 65px;
+      }
+
+      .hero h1 {
+        font-size: 30px;
+      }
+
+      .hero p {
+        font-size: 15px;
+      }
+
+      .logo {
+        width: 82px;
+        height: 82px;
+        font-size: 49px;
+      }
+
+      .card {
+        padding: 22px 19px;
+        border-radius: 17px;
+      }
+
+      h2 {
+        font-size: 21px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="hero">
+
+    <div class="logo">G</div>
+
+    <h1>Groupora Privacy Policy</h1>
+
+    <p>
+      This Privacy Policy explains how Groupora collects,
+      uses, stores, protects, and manages user information.
+    </p>
+
+    <div class="updated">
+      Last updated: July 2026
+    </div>
+
+  </header>
+
+  <main class="container">
+
+    <nav class="navigation">
+
+      <a href="#information">
+        Information We Collect
+      </a>
+
+      <a href="#usage">
+        How We Use Data
+      </a>
+
+      <a href="#sharing">
+        Data Sharing
+      </a>
+
+      <a href="#security">
+        Security
+      </a>
+
+      <a href="#deletion">
+        Account Deletion
+      </a>
+
+      <a href="#contact">
+        Contact
+      </a>
+
+    </nav>
+
+
+    <section class="card">
+
+      <h2>🛡️ Introduction</h2>
+
+      <p class="intro">
+        Welcome to Groupora. Groupora is a social and
+        community platform that allows users to create
+        accounts, build profiles, create or join groups,
+        communicate with other users, upload content,
+        follow users, and manage private communities.
+      </p>
+
+      <p>
+        This Privacy Policy applies to the Groupora mobile
+        application and related services. By using Groupora,
+        you acknowledge the practices described in this
+        Privacy Policy.
+      </p>
+
+      <div class="notice">
+        Please do not use Groupora if you do not agree with
+        this Privacy Policy.
+      </div>
+
+    </section>
+
+
+    <section class="card" id="information">
+
+      <h2>📋 Information We Collect</h2>
+
+      <p>
+        The information collected depends on the features
+        you choose to use.
+      </p>
+
+      <div class="data-grid">
+
+        <div class="data-box">
+          <strong>Account Information</strong>
+          Email address, username, account identifier and
+          authentication information.
+        </div>
+
+        <div class="data-box">
+          <strong>Profile Information</strong>
+          Profile photo, biography, country, city and other
+          information voluntarily added to a profile.
+        </div>
+
+        <div class="data-box">
+          <strong>Group Information</strong>
+          Group names, descriptions, icons, banners,
+          categories, invitation codes, memberships and
+          administrative roles.
+        </div>
+
+        <div class="data-box">
+          <strong>Messages</strong>
+          Messages, announcements and other content sent
+          inside groups or private conversations.
+        </div>
+
+        <div class="data-box">
+          <strong>Photos and Content</strong>
+          Profile photos, group images, chat images and other
+          photos voluntarily uploaded by users.
+        </div>
+
+        <div class="data-box">
+          <strong>Social Connections</strong>
+          Followers, following, friends, group memberships
+          and interactions with other users.
+        </div>
+
+        <div class="data-box">
+          <strong>Reports and Moderation</strong>
+          Reports, blocked users, moderation actions,
+          rejection reasons and information needed to
+          investigate violations.
+        </div>
+
+        <div class="data-box">
+          <strong>Approximate Location</strong>
+          A country or city voluntarily selected by the user.
+          Groupora does not require users to publicly share
+          their precise live location.
+        </div>
+
+      </div>
+
+      <h3>Google Sign-In</h3>
+
+      <p>
+        If you choose Google Sign-In, Groupora may receive
+        basic account information provided through Google,
+        such as your email address, display name, profile
+        image and Google account identifier.
+      </p>
+
+      <h3>Information You Choose to Provide</h3>
+
+      <p>
+        Users may voluntarily provide information when
+        creating a profile, creating a group, sending a
+        message, uploading an image, submitting a report,
+        contacting support or using other Groupora features.
+      </p>
+
+    </section>
+
+
+    <section class="card" id="usage">
+
+      <h2>⚙️ How We Use Information</h2>
+
+      <p>
+        Groupora may use collected information to:
+      </p>
+
+      <ul>
+        <li>
+          Create, authenticate and manage user accounts.
+        </li>
+
+        <li>
+          Display profiles, usernames and profile photos.
+        </li>
+
+        <li>
+          Allow users to create, join and manage groups.
+        </li>
+
+        <li>
+          Deliver group messages, private messages and
+          announcements.
+        </li>
+
+        <li>
+          Upload and display user-selected photos.
+        </li>
+
+        <li>
+          Provide follower, following and friend features.
+        </li>
+
+        <li>
+          Show relevant country, city or community
+          information.
+        </li>
+
+        <li>
+          Process reports and perform content moderation.
+        </li>
+
+        <li>
+          Detect spam, abuse, fraud and security threats.
+        </li>
+
+        <li>
+          Protect users and enforce our Terms of Service.
+        </li>
+
+        <li>
+          Diagnose technical problems and improve app
+          performance.
+        </li>
+
+        <li>
+          Respond to support and account-deletion requests.
+        </li>
+      </ul>
+
+    </section>
+
+
+    <section class="card" id="sharing">
+
+      <h2>🤝 How Information Is Shared</h2>
+
+      <p>
+        Groupora does not sell users' personal information.
+      </p>
+
+      <h3>Information Visible to Other Users</h3>
+
+      <p>
+        Depending on your profile and privacy choices, other
+        Groupora users may be able to see information such
+        as your username, profile photo, biography, country,
+        city, follower information, group memberships and
+        content you choose to post or send.
+      </p>
+
+      <p>
+        Messages and images sent in a group may be visible
+        to the members of that group. Private messages are
+        visible to the participants in the conversation,
+        subject to moderation, safety and legal requirements.
+      </p>
+
+      <h3>Service Providers</h3>
+
+      <p>
+        We use trusted service providers to operate
+        Groupora. These providers may process limited
+        information only as needed to provide their
+        services.
+      </p>
+
+      <div class="service">
+        <strong>Google Firebase</strong>
+
+        <p>
+          Groupora may use Firebase Authentication,
+          Cloud Firestore, Firebase Storage and related
+          Firebase services for account authentication,
+          database storage, uploaded content and application
+          operation.
+        </p>
+      </div>
+
+      <div class="service">
+        <strong>Google Sign-In</strong>
+
+        <p>
+          Google Sign-In may be used to authenticate users
+          who choose to access Groupora with their Google
+          account.
+        </p>
+      </div>
+
+      <h3>Legal and Safety Reasons</h3>
+
+      <p>
+        Information may be disclosed where reasonably
+        necessary to comply with applicable law, respond to
+        lawful requests, prevent fraud or abuse, protect the
+        security of Groupora, or protect the rights and
+        safety of users and others.
+      </p>
+
+    </section>
+
+
+    <section class="card" id="content">
+
+      <h2>💬 User-Generated Content</h2>
+
+      <p>
+        Groupora allows users to create profiles, groups,
+        messages, descriptions, announcements and uploaded
+        images. Users are responsible for the content they
+        submit.
+      </p>
+
+      <p>
+        Groupora may review, restrict, remove or preserve
+        content when necessary for moderation, security,
+        policy enforcement, legal compliance or investigation
+        of reported abuse.
+      </p>
+
+      <p>
+        Users may report inappropriate users, groups,
+        messages or content using the available reporting
+        features.
+      </p>
+
+    </section>
+
+
+    <section class="card" id="security">
+
+      <h2>🔐 Data Security</h2>
+
+      <p>
+        We use reasonable administrative, technical and
+        organizational measures intended to protect user
+        information against unauthorized access, loss,
+        misuse, alteration or disclosure.
+      </p>
+
+      <p>
+        Data transmitted between the application and its
+        service providers is transmitted using secure
+        encrypted network connections where supported.
+      </p>
+
+      <div class="notice">
+        No online service can guarantee absolute security.
+        Users should protect their passwords and should not
+        share account credentials with other people.
+      </div>
+
+    </section>
+
+
+    <section class="card" id="retention">
+
+      <h2>🗄️ Data Retention</h2>
+
+      <p>
+        We retain information for as long as reasonably
+        necessary to provide Groupora services, maintain an
+        active account, meet security requirements, resolve
+        disputes, prevent abuse and comply with applicable
+        legal obligations.
+      </p>
+
+      <p>
+        Some content may remain visible until it is deleted
+        by the user, removed by an authorized group owner or
+        moderator, or deleted as part of an account-deletion
+        request.
+      </p>
+
+      <p>
+        Limited information may be retained after account
+        deletion where required for fraud prevention,
+        security, legal compliance, dispute resolution or
+        enforcement of our agreements.
+      </p>
+
+    </section>
+
+
+    <section class="card" id="choices">
+
+      <h2>🎛️ Your Choices and Rights</h2>
+
+      <p>
+        Depending on the available Groupora features, users
+        may:
+      </p>
+
+      <ul>
+        <li>
+          Edit their username, biography or profile photo.
+        </li>
+
+        <li>
+          Choose whether to add optional city or country
+          information.
+        </li>
+
+        <li>
+          Choose whether to upload photos or send messages.
+        </li>
+
+        <li>
+          Leave groups or manage groups they own.
+        </li>
+
+        <li>
+          Unfollow, block or report another user.
+        </li>
+
+        <li>
+          Request correction or deletion of personal
+          information.
+        </li>
+
+        <li>
+          Request permanent deletion of their Groupora
+          account and associated data.
+        </li>
+      </ul>
+
+    </section>
+
+
+    <section class="card" id="deletion">
+
+      <h2>🗑️ Account and Data Deletion</h2>
+
+      <p>
+        You may request permanent deletion of your Groupora
+        account and the personal data associated with it.
+      </p>
+
+      <p>
+        Use the account-deletion page below and submit your
+        request using the email address connected to your
+        Groupora account.
+      </p>
+
+      <a class="button"
+         href="https://sjmirali354-hash.github.io/groupora-delete-account/">
+        Open Account Deletion Page
+      </a>
+
+      <a class="button"
+         href="mailto:easygroupjoin@gmail.com?subject=Groupora%20Account%20Deletion%20Request">
+        Email Deletion Request
+      </a>
+
+      <div class="success">
+        A verified deletion request may delete your profile,
+        email address, username, profile photo, groups,
+        memberships, messages, uploaded content, social
+        connections and other account-associated information.
+      </div>
+
+      <p>
+        We may ask you to confirm account ownership before
+        processing a deletion request. Verified deletion
+        requests are normally processed within 30 days.
+      </p>
+
+    </section>
+
+
+    <section class="card" id="children">
+
+      <h2>👥 Age Requirements</h2>
+
+      <p>
+        Groupora is not directed to young children. Users
+        must meet the minimum age requirements applicable in
+        their country and comply with the age restrictions
+        displayed on the Google Play store listing.
+      </p>
+
+      <p>
+        If we learn that information was collected from a
+        user who was not legally permitted to use the
+        service, we may restrict the account and delete the
+        related information where appropriate.
+      </p>
+
+    </section>
+
+
+    <section class="card" id="international">
+
+      <h2>🌍 International Data Processing</h2>
+
+      <p>
+        Groupora and its service providers may process or
+        store information on servers located outside the
+        user's country. Where required, reasonable safeguards
+        are used for the handling of such information.
+      </p>
+
+    </section>
+
+
+    <section class="card" id="changes">
+
+      <h2>🔄 Changes to This Policy</h2>
+
+      <p>
+        We may update this Privacy Policy when Groupora adds
+        features, changes its services, uses new service
+        providers or needs to comply with legal and policy
+        requirements.
+      </p>
+
+      <p>
+        The latest version will be posted on this page with
+        an updated revision date.
+      </p>
+
+    </section>
+
+
+    <section class="card" id="contact">
+
+      <h2>✉️ Contact Us</h2>
+
+      <p>
+        For privacy questions, support requests, corrections
+        or account-deletion requests, contact:
+      </p>
+
+      <p>
+        <strong>App:</strong> Groupora
+      </p>
+
+      <p>
+        <strong>Developer:</strong> SJ64 Studios
+      </p>
+
+      <p>
+        <strong>Email:</strong>
+
+        <a class="email"
+           href="mailto:easygroupjoi
