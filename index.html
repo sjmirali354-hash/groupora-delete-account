@@ -11,6 +11,7 @@ margin:0;
 font-family:Arial,sans-serif;
 background:#f4f6fb;
 color:#222;
+line-height:1.6;
 }
 
 .header{
@@ -18,6 +19,10 @@ background:linear-gradient(135deg,#2563eb,#7c3aed);
 color:white;
 padding:50px 20px;
 text-align:center;
+}
+
+.header h1{
+margin:0 0 10px;
 }
 
 .container{
@@ -31,6 +36,7 @@ box-shadow:0 5px 20px rgba(0,0,0,.1);
 
 h2{
 color:#2563eb;
+margin-top:30px;
 }
 
 .button{
@@ -44,9 +50,29 @@ font-weight:bold;
 margin-top:15px;
 }
 
+.button:hover{
+background:#1d4ed8;
+}
+
 .notice{
 background:#fff4f4;
-border-left:5px solid red;
+border-left:5px solid #ef4444;
+padding:15px;
+margin:20px 0;
+border-radius:8px;
+}
+
+.info{
+background:#f0f7ff;
+border-left:5px solid #2563eb;
+padding:15px;
+margin:20px 0;
+border-radius:8px;
+}
+
+.success{
+background:#f0fdf4;
+border-left:5px solid #16a34a;
 padding:15px;
 margin:20px 0;
 border-radius:8px;
@@ -57,6 +83,14 @@ text-align:center;
 padding:20px;
 color:#777;
 }
+
+ul,ol{
+padding-left:25px;
+}
+
+strong{
+font-weight:bold;
+}
 </style>
 
 </head>
@@ -64,101 +98,264 @@ color:#777;
 <body>
 
 <div class="header">
+
 <h1>Delete Your Groupora Account</h1>
-<p>Request permanent deletion of your Groupora account and associated data.</p>
+
+<p>
+Request permanent deletion of your Groupora account and associated data.
+</p>
+
 </div>
+
 
 <div class="container">
 
+
 <h2>How to Request Account Deletion</h2>
+
+<p>
+You can request deletion of your Groupora account through the account
+deletion option available in the app's Account Settings.
+</p>
+
+<p>
+If the email deletion request method is available to you, you may also
+send a deletion request from the email address registered with your
+Groupora account.
+</p>
 
 <ol>
 
-<li>Send an email using the email address registered with your Groupora account.</li>
+<li>
+Use the email address registered with your Groupora account.
+</li>
 
-<li>Use the subject:
-<b>Groupora Account Deletion Request</b></li>
+<li>
+Use the subject:
+<b>Groupora Account Deletion Request</b>
+</li>
 
-<li>Include your registered email address and Groupora username.</li>
+<li>
+Include your registered email address and Groupora username.
+</li>
 
-<li>Send your request to:</li>
+<li>
+Send your request to:
+<b>easygroupjoin@gmail.com</b>
+</li>
 
 </ol>
 
-<p>
-
-<b>Email:</b>
-
-easygroupjoin@gmail.com
-
-</p>
 
 <a class="button"
 href="mailto:easygroupjoin@gmail.com?subject=Groupora%20Account%20Deletion%20Request">
 Request Account Deletion
 </a>
 
+
+<div class="info">
+
+<b>Email/Password Account Verification:</b>
+
+<p>
+For accounts using email/password authentication, the current deletion
+flow requires recent password verification before the deletion request
+can be scheduled.
+</p>
+
+</div>
+
+
+<h2>30-Day Deletion Recovery Period</h2>
+
+<p>
+Account deletion is not immediate. Once a valid deletion request is
+confirmed, permanent deletion is scheduled for <b>30 days later</b>.
+</p>
+
+<p>
+During this 30-day recovery period, you may cancel the scheduled deletion
+by signing in to your Groupora account and completing the required
+password verification.
+</p>
+
+
+<div class="success">
+
+<b>Important:</b>
+
+<p>
+If you cancel the deletion request during the recovery period, your
+account will not be permanently deleted through that scheduled deletion
+request.
+</p>
+
+</div>
+
+
+<h2>Data Removed During Account Deletion</h2>
+
+<p>
+When the scheduled deletion is processed, Groupora's server-side
+deletion process removes applicable account data, which may include:
+</p>
+
+<ul>
+
+<li>Firebase Authentication account</li>
+
+<li>User profile and related account references</li>
+
+<li>Account-associated profile information</li>
+
+<li>Owned groups and related group trees</li>
+
+<li>Messages authored by the user</li>
+
+<li>Related message receipts and reactions</li>
+
+<li>User-owned Stories</li>
+
+<li>User-created custom stickers</li>
+
+<li>User-owned shared-media storage</li>
+
+</ul>
+
+
+<h2>Data and Copies That May Remain</h2>
+
+<p>
+Deleting your account does not necessarily remove every copy of
+information that has already been shared with or downloaded by other
+users.
+</p>
+
+<p>
+Depending on how the information was shared and stored, the following
+may remain:
+</p>
+
+<ul>
+
+<li>Copies of messages or media already received by other users</li>
+
+<li>Files downloaded by other users</li>
+
+<li>Shared conversation history that is not removed by the deletion process</li>
+
+<li>Backups that have not yet expired or been cleaned up</li>
+
+<li>Limited moderation or safety records</li>
+
+<li>Records that must be retained to comply with applicable law</li>
+
+<li>Information necessary for fraud prevention, security, disputes, or enforcement of our Terms of Service</li>
+
+</ul>
+
+
 <div class="notice">
 
 <b>Important:</b>
 
-Deleting your account is permanent.
-
-After deletion you may permanently lose access to your profile, groups, messages, uploaded content, followers, following list and other account related information.
+<p>
+Deletion of your Groupora account does not guarantee that information
+previously copied, downloaded, cached, or otherwise retained by another
+person will be removed from that person's device or storage.
+</p>
 
 </div>
 
-<h2>Data That May Be Deleted</h2>
 
-<ul>
-
-<li>Account profile</li>
-
-<li>Email address</li>
-
-<li>Username</li>
-
-<li>Profile picture</li>
-
-<li>Groups</li>
-
-<li>Messages</li>
-
-<li>Uploaded images</li>
-
-<li>Followers and Following</li>
-
-<li>Other account related information</li>
-
-</ul>
-
-<h2>Data That May Be Retained</h2>
+<h2>Groups, Messages, Stories and Shared Content</h2>
 
 <p>
-
-Some limited information may be retained when required for fraud prevention, legal compliance, dispute resolution, security, or enforcement of our Terms of Service.
-
+If you own groups, the account deletion process may remove your owned
+group trees and related server data as described by the current service
+deletion process.
 </p>
-
-<h2>Processing Time</h2>
 
 <p>
-
-Verified deletion requests are normally processed within 30 days.
-
+Messages, Stories, custom stickers, uploaded media, receipts, reactions,
+and other user-owned content may be removed when the associated deletion
+process is completed.
 </p>
+
+<p>
+However, content that has already been received, copied, downloaded,
+cached, or otherwise retained by other users may remain outside of the
+deleted account.
+</p>
+
+
+<h2>Deletion Processing Time</h2>
+
+<p>
+A verified deletion request is scheduled for permanent deletion
+approximately <b>30 days after confirmation</b>.
+</p>
+
+<p>
+The server-managed cleanup process may take additional time after the
+scheduled deletion date to complete all applicable deletion operations.
+</p>
+
+
+<h2>Can I Cancel My Deletion Request?</h2>
+
+<p>
+Yes. For the current email/password deletion flow, you can cancel the
+scheduled deletion during the 30-day recovery period by signing in and
+completing the required password verification.
+</p>
+
+
+<h2>Data Retention</h2>
+
+<p>
+Groupora may retain limited information when retention is necessary for
+legal compliance, fraud prevention, security, dispute resolution,
+moderation, or enforcement of our Terms of Service.
+</p>
+
+<p>
+Such retained information is limited to what is reasonably necessary for
+the applicable purpose and may remain for the period required by the
+relevant circumstances or applicable law.
+</p>
+
+
+<h2>Permanent Deletion</h2>
+
+<div class="notice">
+
+<b>Warning:</b>
+
+<p>
+Once the scheduled account deletion has been completed, it may not be
+possible to recover your account, profile, groups, messages, Stories,
+custom stickers, uploaded content, or other deleted account data.
+</p>
+
+</div>
+
 
 <h2>Need Help?</h2>
 
 <p>
-
-Email us anytime:
-
-<b>easygroupjoin@gmail.com</b>
-
+If you have questions about account deletion or need assistance with a
+deletion request, contact the app developer:
 </p>
 
+<p>
+<b>SJ64 Studios</b><br>
+<b>Email:</b> easygroupjoin@gmail.com
+</p>
+
+
 </div>
+
 
 <footer>
 
