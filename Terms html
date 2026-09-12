@@ -1,1 +1,1752 @@
-ممم
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<meta name="description"
+      content="Official Terms of Service for the Groupora application.">
+
+<meta name="theme-color"
+      content="#5B45F5">
+
+<title>Terms of Service | Groupora</title>
+
+
+<style>
+
+:root{
+
+  --primary:#4f46e5;
+  --secondary:#8b2cf5;
+  --accent:#19c6e7;
+  --pink:#eb4fa3;
+
+  --background:#f5f6fc;
+  --card:#ffffff;
+
+  --text:#202333;
+  --muted:#687086;
+
+  --border:#e4e6ef;
+
+  --soft-purple:#f1efff;
+
+  --warning-bg:#fff7e8;
+  --warning-border:#f0ad37;
+
+  --danger-bg:#fff4f4;
+  --danger-border:#ef4444;
+
+  --success-bg:#effcf6;
+  --success-border:#21a66f;
+
+}
+
+
+*{
+  box-sizing:border-box;
+}
+
+
+html{
+  scroll-behavior:smooth;
+}
+
+
+body{
+
+  margin:0;
+
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  background:
+
+    radial-gradient(
+      circle at top left,
+      rgba(25,198,231,.12),
+      transparent 30%
+    ),
+
+    radial-gradient(
+      circle at top right,
+      rgba(235,79,163,.12),
+      transparent 30%
+    ),
+
+    var(--background);
+
+  color:var(--text);
+
+  line-height:1.7;
+
+}
+
+
+.hero{
+
+  position:relative;
+
+  overflow:hidden;
+
+  padding:58px 20px 75px;
+
+  text-align:center;
+
+  color:white;
+
+  background:
+
+    linear-gradient(
+      135deg,
+      var(--primary),
+      var(--secondary)
+    );
+
+}
+
+
+.hero::before,
+.hero::after{
+
+  content:"";
+
+  position:absolute;
+
+  border-radius:50%;
+
+  opacity:.25;
+
+}
+
+
+.hero::before{
+
+  width:190px;
+  height:190px;
+
+  background:var(--accent);
+
+  top:-90px;
+  left:-70px;
+
+}
+
+
+.hero::after{
+
+  width:220px;
+  height:220px;
+
+  background:var(--pink);
+
+  bottom:-130px;
+  right:-80px;
+
+}
+
+
+.logo{
+
+  position:relative;
+
+  z-index:1;
+
+  width:92px;
+  height:92px;
+
+  margin:0 auto 18px;
+
+  border-radius:25px;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  font-size:56px;
+
+  font-weight:800;
+
+  color:white;
+
+  background:
+
+    linear-gradient(
+      145deg,
+      #107bea,
+      #7437f5 55%,
+      #da2ab3
+    );
+
+  border:4px solid
+    rgba(255,255,255,.78);
+
+  box-shadow:
+
+    0 14px 35px
+    rgba(20,15,90,.35);
+
+}
+
+
+.hero h1{
+
+  position:relative;
+
+  z-index:1;
+
+  margin:0;
+
+  font-size:38px;
+
+  letter-spacing:-.5px;
+
+}
+
+
+.hero p{
+
+  position:relative;
+
+  z-index:1;
+
+  max-width:700px;
+
+  margin:12px auto 0;
+
+  font-size:17px;
+
+  opacity:.95;
+
+}
+
+
+.updated{
+
+  position:relative;
+
+  z-index:1;
+
+  display:inline-block;
+
+  margin-top:18px;
+
+  padding:7px 13px;
+
+  border-radius:30px;
+
+  font-size:13px;
+
+  background:
+    rgba(255,255,255,.16);
+
+  border:1px solid
+    rgba(255,255,255,.28);
+
+}
+
+
+.container{
+
+  width:min(
+    920px,
+    calc(100% - 30px)
+  );
+
+  margin:-38px auto 45px;
+
+  position:relative;
+
+  z-index:2;
+
+}
+
+
+.navigation{
+
+  display:flex;
+
+  flex-wrap:wrap;
+
+  gap:9px;
+
+  justify-content:center;
+
+  padding:17px;
+
+  margin-bottom:18px;
+
+  background:
+    rgba(255,255,255,.96);
+
+  border:1px solid
+    var(--border);
+
+  border-radius:18px;
+
+  box-shadow:
+
+    0 10px 30px
+    rgba(32,35,51,.08);
+
+}
+
+
+.navigation a{
+
+  text-decoration:none;
+
+  color:var(--primary);
+
+  background:var(--soft-purple);
+
+  padding:8px 12px;
+
+  border-radius:10px;
+
+  font-size:13px;
+
+  font-weight:700;
+
+  transition:.2s;
+
+}
+
+
+.navigation a:hover{
+
+  background:#e7e3ff;
+
+  transform:translateY(-1px);
+
+}
+
+
+.card{
+
+  background:var(--card);
+
+  border:1px solid
+    var(--border);
+
+  border-radius:20px;
+
+  padding:30px;
+
+  margin-bottom:18px;
+
+  box-shadow:
+
+    0 10px 30px
+    rgba(32,35,51,.07);
+
+}
+
+
+h2{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:10px;
+
+  margin-top:0;
+
+  margin-bottom:16px;
+
+  color:var(--primary);
+
+  font-size:23px;
+
+}
+
+
+h3{
+
+  color:#3e4254;
+
+  margin-top:23px;
+
+  margin-bottom:8px;
+
+  font-size:18px;
+
+}
+
+
+p{
+
+  margin-top:8px;
+
+  margin-bottom:13px;
+
+}
+
+
+ul,
+ol{
+
+  padding-left:24px;
+
+}
+
+
+li{
+
+  margin-bottom:9px;
+
+}
+
+
+.intro{
+
+  font-size:16px;
+
+}
+
+
+.notice{
+
+  padding:16px 17px;
+
+  margin:18px 0;
+
+  border-radius:12px;
+
+  background:var(--warning-bg);
+
+  border-left:5px solid
+    var(--warning-border);
+
+}
+
+
+.danger{
+
+  padding:16px 17px;
+
+  margin:18px 0;
+
+  border-radius:12px;
+
+  background:var(--danger-bg);
+
+  border-left:5px solid
+    var(--danger-border);
+
+}
+
+
+.success{
+
+  padding:16px 17px;
+
+  margin:18px 0;
+
+  border-radius:12px;
+
+  background:var(--success-bg);
+
+  border-left:5px solid
+    var(--success-border);
+
+}
+
+
+.info-box{
+
+  padding:17px;
+
+  margin:18px 0;
+
+  border-radius:12px;
+
+  background:#fafaff;
+
+  border:1px solid
+    #e5e1ff;
+
+}
+
+
+.email{
+
+  color:var(--primary);
+
+  font-weight:700;
+
+  word-break:break-word;
+
+  text-decoration:none;
+
+}
+
+
+.footer{
+
+  text-align:center;
+
+  padding:12px 20px 35px;
+
+  color:var(--muted);
+
+  font-size:14px;
+
+}
+
+
+.footer strong{
+
+  color:var(--primary);
+
+}
+
+
+@media(max-width:600px){
+
+  .hero{
+
+    padding:45px 18px 65px;
+
+  }
+
+
+  .hero h1{
+
+    font-size:30px;
+
+  }
+
+
+  .hero p{
+
+    font-size:15px;
+
+  }
+
+
+  .logo{
+
+    width:82px;
+    height:82px;
+
+    font-size:49px;
+
+  }
+
+
+  .card{
+
+    padding:22px 19px;
+
+    border-radius:17px;
+
+  }
+
+
+  h2{
+
+    font-size:21px;
+
+  }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header class="hero">
+
+
+  <div class="logo">
+    G
+  </div>
+
+
+  <h1>
+    Groupora Terms of Service
+  </h1>
+
+
+  <p>
+    These Terms of Service govern your use of the
+    Groupora application and related services.
+  </p>
+
+
+  <div class="updated">
+    Effective date: September 8, 2026
+  </div>
+
+
+</header>
+
+
+
+<main class="container">
+
+
+
+<nav class="navigation">
+
+
+  <a href="#acceptance">
+    Acceptance
+  </a>
+
+
+  <a href="#accounts">
+    Accounts
+  </a>
+
+
+  <a href="#profiles">
+    Profiles & Messaging
+  </a>
+
+
+  <a href="#groups">
+    Groups
+  </a>
+
+
+  <a href="#channels">
+    Channels
+  </a>
+
+
+  <a href="#stories">
+    Stories
+  </a>
+
+
+  <a href="#content">
+    User Content
+  </a>
+
+
+  <a href="#coins">
+    Coins
+  </a>
+
+
+  <a href="#moderation">
+    Moderation
+  </a>
+
+
+  <a href="#prohibited">
+    Prohibited Content
+  </a>
+
+
+  <a href="#deletion">
+    Account Deletion
+  </a>
+
+
+  <a href="#termination">
+    Termination
+  </a>
+
+
+  <a href="#liability">
+    Liability
+  </a>
+
+
+  <a href="#changes">
+    Changes
+  </a>
+
+
+  <a href="#contact">
+    Contact
+  </a>
+
+
+</nav>
+
+
+
+<section class="card">
+
+
+  <h2>
+    📜 About These Terms
+  </h2>
+
+
+  <p class="intro">
+
+    These Terms of Service page is provided for general
+    app use. It is not legal advice.
+
+  </p>
+
+
+</section>
+
+
+
+<section class="card" id="acceptance">
+
+
+  <h2>
+    🤝 Acceptance of Terms
+  </h2>
+
+
+  <p>
+
+    By creating an account or using Groupora
+    ("we", "our", or "the app"), you agree to these
+    Terms of Service and our Privacy Policy.
+
+  </p>
+
+
+  <p>
+
+    If you do not agree with any part of these terms,
+    please do not create an account or use the app.
+
+  </p>
+
+
+</section>
+
+
+
+<section class="card" id="accounts">
+
+
+  <h2>
+    👤 Eligibility and User Accounts
+  </h2>
+
+
+  <p>
+
+    Groupora is not directed to children under 13.
+
+  </p>
+
+
+  <p>
+
+    You must provide accurate information, keep your
+    sign-in credentials and device secure, and take
+    responsibility for activity performed through your
+    account.
+
+  </p>
+
+
+  <p>
+
+    Email/password and Google sign-in are supported.
+
+  </p>
+
+
+  <p>
+
+    You may edit the profile fields the app permits,
+    but you must not impersonate another person or use
+    a username, photo, bio, profile link, or other
+    account information that is unlawful, deceptive,
+    abusive, or designed to evade moderation.
+
+  </p>
+
+
+</section>
+
+
+
+<section class="card" id="profiles">
+
+
+  <h2>
+    💬 Profiles, Friends, Followers, and Messaging
+  </h2>
+
+
+  <p>
+
+    You may follow users and Channels. A Friend
+    connection is derived when two users follow each
+    other.
+
+  </p>
+
+
+  <p>
+
+    Follow records do not give permission to access
+    private content.
+
+  </p>
+
+
+  <p>
+
+    Direct messages are controlled by the current
+    relationship and messaging permissions; group
+    chats are available to authorized group members.
+
+  </p>
+
+
+  <p>
+
+    Messages may include text, replies, reactions,
+    image/video attachments, location links, and
+    stickers.
+
+  </p>
+
+
+  <p>
+
+    You are responsible for what you send.
+
+  </p>
+
+
+  <p>
+
+    Clear Chat for Me hides shared history for you
+    but does not delete it for other participants.
+
+  </p>
+
+
+</section>
+
+
+
+<section class="card" id="groups">
+
+
+  <h2>
+    👥 Groups and Invitations
+  </h2>
+
+
+  <p>
+
+    Users may create or join groups through invite
+    codes, links, or available join flows.
+
+  </p>
+
+
+  <p>
+
+    Group owners and administrators control membership,
+    available roles, join approval, message approval,
+    member sharing, posting access, and member
+    restrictions.
+
+  </p>
+
+
+  <p>
+
+    Group roles currently include owner,
+    administrator, and member.
+
+  </p>
+
+
+  <p>
+
+    Owners may transfer ownership or assign available
+    roles; administrators may perform the controls
+    granted to them.
+
+  </p>
+
+
+  <p>
+
+    Do not share an invite link or add members without
+    permission.
+
+  </p>
+
+
+  <p>
+
+    Group owners and members are responsible for the
+    groups they create, join, and use.
+
+  </p>
+
+
+  <p>
+
+    Discover visibility or an approved promotion does
+    not make a private group's conversations public.
+
+  </p>
+
+
+  <div class="danger">
+
+    <strong>Group Deletion</strong>
+
+    <p>
+
+      Group deletion may remove the group's server
+      data and is not reversible once completed.
+
+    </p>
+
+  </div>
+
+
+</section>
+
+
+
+<section class="card" id="channels">
+
+
+  <h2>
+    📢 Channels and Channel Posts
+  </h2>
+
+
+  <p>
+
+    Channels are separate from groups.
+
+  </p>
+
+
+  <p>
+
+    A Channel owner may publish text, image, video,
+    location, or sticker posts, and signed-in users
+    who are not blocked may view eligible Channel
+    content.
+
+  </p>
+
+
+  <p>
+
+    Users may follow Channels and view them through
+    Channel Discover.
+
+  </p>
+
+
+  <p>
+
+    Channel owners control publishing but do not
+    receive global administrator powers.
+
+  </p>
+
+
+  <p>
+
+    Global administrators manage reports through the
+    Admin Panel and may delete Channels through the
+    authorized server process.
+
+  </p>
+
+
+  <p>
+
+    There is no confirmed paid Channel-promotion
+    system in the current app; group promotion and
+    Channel following are separate features.
+
+  </p>
+
+
+</section>
+
+
+
+<section class="card" id="stories">
+
+
+  <h2>
+    📸 Stories and Shared Content
+  </h2>
+
+
+  <p>
+
+    You may publish temporary Stories with text,
+    emoji, photos, or videos to eligible mutual Friends.
+
+  </p>
+
+
+  <p>
+
+    Stories may expire after their stated period and
+    may include views and reactions.
+
+  </p>
+
+
+  <p>
+
+    Do not post content you do not have the right to
+    share.
+
+  </p>
+
+
+  <div class="notice">
+
+    <strong>Temporary does not mean private.</strong>
+
+    <p>
+
+      Temporary content can still be viewed, copied,
+      downloaded, or reported before it expires, so do
+      not use Stories or chats for information that must
+      remain secret.
+
+    </p>
+
+  </div>
+
+
+  <p>
+
+    Local Story hiding changes only your device's view
+    and does not remove the shared Story.
+
+  </p>
+
+
+</section>
+
+
+
+<section class="card" id="content">
+
+
+  <h2>
+    🖼️ User Content and Media
+  </h2>
+
+
+  <p>
+
+    You retain any rights you have in content you
+    create.
+
+  </p>
+
+
+  <p>
+
+    To operate Groupora, you grant us permission to
+    store, process, display, transmit, and technically
+    back up that content for the people, groups,
+    Channels, and features you choose.
+
+  </p>
+
+
+  <p>
+
+    This includes delivering messages, media, stickers,
+    notifications, reactions, receipts, views, and
+    Stories.
+
+  </p>
+
+
+  <div class="info-box">
+
+    <strong>Current Chat Media Support</strong>
+
+    <p>
+
+      Current chat media support is for selected images
+      and videos up to 50 MB; other formats may be
+      rejected.
+
+    </p>
+
+  </div>
+
+
+  <p>
+
+    When you choose location sharing, you are
+    responsible for the coordinates included in the
+    generated map link.
+
+  </p>
+
+
+  <p>
+
+    You must have the rights and permissions needed to
+    share every image, video, sticker, message,
+    location, or link.
+
+  </p>
+
+
+  <p>
+
+    Other users may retain received or downloaded
+    copies after you delete the source.
+
+  </p>
+
+
+</section>
+
+
+
+<section class="card" id="coins">
+
+
+  <h2>
+    🪙 Coins, Referrals, and Promotions
+  </h2>
+
+
+  <p>
+
+    Coins are virtual, in-app credits with no cash or
+    real-world monetary value.
+
+  </p>
+
+
+  <p>
+
+    They cannot be sold, transferred, withdrawn, or
+    exchanged for money.
+
+  </p>
+
+
+  <p>
+
+    The current app includes daily check-in rewards,
+    referral rewards subject to the displayed
+    eligibility and anti-abuse checks, and approved
+    group promotion requests.
+
+  </p>
+
+
+  <p>
+
+    Promotion durations can be limited, and coins spent
+    on a promotion request are not refundable when the
+    request is rejected, removed, expires, or violates
+    these Terms.
+
+  </p>
+
+
+  <p>
+
+    Coins and reward records may be adjusted, disabled,
+    or removed for abuse, error, account deletion, or
+    service changes.
+
+  </p>
+
+
+  <div class="notice">
+
+    <strong>Important:</strong>
+
+    <p>
+
+      Coins are not a purchase, deposit, investment,
+      or guaranteed entitlement.
+
+    </p>
+
+  </div>
+
+
+</section>
+
+
+
+<section class="card" id="moderation">
+
+
+  <h2>
+    🛡️ Reporting and Moderation
+  </h2>
+
+
+  <p>
+
+    Eligible ordinary users may report a Channel or
+    Channel post when the report controls are shown.
+
+  </p>
+
+
+  <p>
+
+    Channel owners and global administrators do not
+    receive the normal user-facing Report option inside
+    a Channel.
+
+  </p>
+
+
+  <p>
+
+    Ordinary users and Channel owners cannot access
+    the reports list; global administrators manage
+    submitted reports through the Admin Panel.
+
+  </p>
+
+
+  <p>
+
+    Reports may be retained for moderation, safety,
+    and legal purposes.
+
+  </p>
+
+
+  <p>
+
+    Administrators may review report details, update
+    report status, moderate available group content,
+    apply restrictions, block accounts, remove content,
+    manage promotions, and delete Channels through
+    authorized tools.
+
+  </p>
+
+
+  <div class="notice">
+
+    <strong>Report Review</strong>
+
+    <p>
+
+      Report review does not guarantee that the
+      reported content will be removed, and the current
+      app does not promise comprehensive automated or
+      human review of every post or message.
+
+    </p>
+
+  </div>
+
+
+</section>
+
+
+
+<section class="card">
+
+
+  <h2>
+    🚫 Blocking, Restrictions, and Safety
+  </h2>
+
+
+  <p>
+
+    You may block users where the app provides that
+    control.
+
+  </p>
+
+
+  <p>
+
+    Blocking and group restrictions can limit follows,
+    reads, posts, messages, membership actions, or
+    other interactions, but do not guarantee removal
+    of information already copied or cached by another
+    person.
+
+  </p>
+
+
+  <div class="danger">
+
+    <strong>Access Control</strong>
+
+    <p>
+
+      Do not attempt to bypass a block, restriction,
+      membership check, approval flow, report control,
+      or other access control.
+
+    </p>
+
+  </div>
+
+
+</section>
+
+
+
+<section class="card">
+
+
+  <h2>
+    ©️ Copyright and Intellectual Property Complaints
+  </h2>
+
+
+  <p>
+
+    Do not upload or share content that infringes
+    another person's copyright, trademark, privacy,
+    publicity, or other rights.
+
+  </p>
+
+
+  <p>
+
+    If you believe content on Groupora infringes your
+    rights, send the relevant details, the location of
+    the content, and a way to contact you to the support
+    address below.
+
+  </p>
+
+
+  <p>
+
+    We may restrict, remove, or preserve disputed
+    content while reviewing a complaint, subject to
+    applicable law.
+
+  </p>
+
+
+</section>
+
+
+
+<section class="card" id="prohibited">
+
+
+  <h2>
+    ⛔ Prohibited Content
+  </h2>
+
+
+  <p>
+
+    You must not use Groupora to post, share, or
+    promote content that is:
+
+  </p>
+
+
+  <ul>
+
+    <li>Illegal.</li>
+
+    <li>Abusive.</li>
+
+    <li>Threatening.</li>
+
+    <li>Hateful.</li>
+
+    <li>Discriminatory.</li>
+
+    <li>Sexually exploitative.</li>
+
+    <li>Excessively violent.</li>
+
+    <li>Fraudulent.</li>
+
+    <li>Misleading.</li>
+
+    <li>Invasive of privacy.</li>
+
+    <li>Infringing of intellectual-property rights.</li>
+
+    <li>
+      Intended to facilitate spam, scams, harassment,
+      or harm.
+    </li>
+
+  </ul>
+
+
+  <p>
+
+    You must not attempt to bypass access controls,
+    interfere with the service, collect other users'
+    information without permission, access private
+    group or message content, or misuse referral,
+    coin, group, Channel, promotion, notification, or
+    moderation systems.
+
+  </p>
+
+
+</section>
+
+
+
+<section class="card" id="deletion">
+
+
+  <h2>
+    🗑️ Account Deletion
+  </h2>
+
+
+  <p>
+
+    You may request deletion from Account settings.
+
+  </p>
+
+
+  <p>
+
+    The current email/password flow requires recent
+    password verification, schedules permanent deletion
+    30 days later, and lets you cancel during that
+    recovery period by signing in and verifying your
+    password.
+
+  </p>
+
+
+  <h3>
+    Data Removed During Cleanup
+  </h3>
+
+
+  <p>
+
+    At cleanup, the service removes the Firebase Auth
+    account, user profile and related account references,
+    owned group trees, authored messages and related
+    receipts/reactions, and user-owned Story,
+    custom-sticker, and shared-media storage.
+
+  </p>
+
+
+  <h3>
+    Information That May Remain
+  </h3>
+
+
+  <p>
+
+    Shared copies, other users' conversation history,
+    downloaded files, backups, limited moderation
+    records, or records required by law may remain
+    where the deletion process does not remove them
+    or retention is necessary.
+
+  </p>
+
+
+  <div class="notice">
+
+    <strong>Server-Managed Deletion</strong>
+
+    <p>
+
+      Deletion is server-managed and may complete after
+      the scheduled time rather than instantly.
+
+    </p>
+
+  </div>
+
+
+</section>
+
+
+
+<section class="card" id="termination">
+
+
+  <h2>
+    🔒 Suspension and Termination
+  </h2>
+
+
+  <p>
+
+    We may restrict features, remove content, suspend,
+    or terminate an account when we reasonably believe
+    that these Terms, safety requirements, access
+    controls, or applicable law have been violated, or
+    when needed to protect users and the service.
+
+  </p>
+
+
+  <p>
+
+    We may also discontinue a feature or the service.
+
+  </p>
+
+
+  <p>
+
+    Account termination does not restore deleted
+    content, reverse completed moderation, or guarantee
+    removal of copies held by others.
+
+  </p>
+
+
+  <p>
+
+    Where applicable, you may contact support about an
+    account-access or moderation issue.
+
+  </p>
+
+
+</section>
+
+
+
+<section class="card">
+
+
+  <h2>
+    ⚙️ Service Availability and Security
+  </h2>
+
+
+  <p>
+
+    Groupora is provided on an
+    <strong>"as is" and "as available"</strong>
+    basis.
+
+  </p>
+
+
+  <p>
+
+    We do not guarantee uninterrupted service,
+    permanent storage, delivery of every message or
+    notification, preservation of cached content, or
+    continued access to any group, Channel, reward,
+    or feature.
+
+  </p>
+
+
+  <p>
+
+    Firebase, API/server checks, and database/storage
+    rules are authoritative.
+
+  </p>
+
+
+  <div class="notice">
+
+    <strong>Security Decisions</strong>
+
+    <p>
+
+      Local cache, offline data, client-side role
+      information, client-side coin values, or cached
+      content is never proof of authorization,
+      membership, ownership, administrator status,
+      purchase or entitlement, block state, or another
+      security decision.
+
+    </p>
+
+  </div>
+
+
+</section>
+
+
+
+<section class="card" id="liability">
+
+
+  <h2>
+    ⚖️ Limitation of Liability
+  </h2>
+
+
+  <p>
+
+    Groupora is provided on an
+    <strong>"as is" and "as available"</strong>
+    basis.
+
+  </p>
+
+
+  <p>
+
+    We work to keep the app available and secure, but
+    we do not guarantee uninterrupted service,
+    permanent storage, delivery of every notification
+    or message, or the accuracy of user content.
+
+  </p>
+
+
+  <p>
+
+    To the fullest extent permitted by law, Groupora
+    and its operators are not liable for losses arising
+    from your use of the app, content posted by other
+    users, service interruptions, deleted or expired
+    content, or virtual coins lost through rejected,
+    removed, or rule-violating activity.
+
+  </p>
+
+
+</section>
+
+
+
+<section class="card" id="changes">
+
+
+  <h2>
+    🔄 Changes to Terms
+  </h2>
+
+
+  <p>
+
+    App features and these Terms may change as Groupora
+    evolves.
+
+  </p>
+
+
+  <p>
+
+    We will post the updated version in the app and
+    update the date above.
+
+  </p>
+
+
+  <p>
+
+    Continued use after the updated Terms are posted
+    means you accept the changes to the extent permitted
+    by law.
+
+  </p>
+
+
+  <p>
+
+    If a change requires renewed consent, we will
+    request it through the available app flow.
+
+  </p>
+
+
+</section>
+
+
+
+<section class="card" id="contact">
+
+
+  <h2>
+    ✉️ Contact
+  </h2>
+
+
+  <p>
+
+    Questions about these Terms of Service can be sent
+    to the app developer, SJ64 Studios:
+
+  </p>
+
+
+  <p>
+
+    <strong>Email:</strong><br>
+
+    <a
+      class="email"
+      href="mailto:easygroupjoin@gmail.com">
+
+      easygroupjoin@gmail.com
+
+    </a>
+
+  </p>
+
+
+  <a
+    class="button"
+    href="mailto:easygroupjoin@gmail.com">
+
+    Contact Support
+
+  </a>
+
+
+</section>
+
+
+
+</main>
+
+
+
+<footer class="footer">
+
+  © 2026 Groupora. All Rights Reserved.
+
+</footer>
+
+
+
+</body>
+</html>
